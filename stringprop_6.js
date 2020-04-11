@@ -29,7 +29,7 @@ c.log(str1.substring(1, 3));
 //  substring() will give us a part of string from starting value(firstArguement) upto the no. before second index value(secondArguement-1);
 c.log(str1.blink());
 
-
+//  this is to be deleted
 
 
 
