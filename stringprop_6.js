@@ -27,28 +27,11 @@ console.log(str1.includes("Ashish"));
 //  It's easy. It's tells us about whether.
 c.log(str1.substring(1, 3));
 //  substring() will give us a part of string from starting value(firstArguement) upto the no. before second index value(secondArguement-1);
-c.log(str1.blink());
+// str1.split();
+//  This function will divide the satring into the array 
+console.log(str1.slice(0,5));
+//  This will take firstArguement as starting value and secondArguement as no. elements from the starting point.
+console.log(str1.replace('Ashish','Ash'));
+//  It will replace the first value with the second value.
 
-//  this is to be deleted
 
-
-
-
-
-
-//  This is for practice.
-let element = document.createElement("p");
-document.body.appendChild(element);
-
-function func12() {
-  let txtArea = document.getElementById("textarea1").value;
-  txtArea = txtArea.trim();
-  if (txtArea != "") {
-    element.textContent = `Hello, ${txtArea}`;
-    element.style.color = "green";
-    element.style.fontSize = "25px";
-  } else {
-    element.textContent = `Please, type your name!!!!!`;
-    element.style.color = "red";
-  }
-}
